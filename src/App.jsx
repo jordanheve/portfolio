@@ -1,5 +1,5 @@
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faB, faMoon, faSun, faCode, faLink } from '@fortawesome/free-solid-svg-icons'
+import { faB, faMoon, faSun, faCode, faLink, faBars, faX } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub, faJs, faReact, faHtml5, faCss3Alt, faPhp, faBootstrap, faFigma, faGitAlt } from '@fortawesome/free-brands-svg-icons'
 import Header from './header/Header'
 import { useEffect} from 'react'
@@ -12,7 +12,7 @@ import Skills from './components/skills/skills'
 import Contact from './components/contact/Contact'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 import Footer from './footer/Footer'
-library.add(faB, faCode, faLinkedin, faGithub, faJs, faReact, faHtml5, faCss3Alt, faMoon, faSun, faLink, faPhp, faBootstrap, faFigma, faGitAlt, faEnvelope)
+library.add(faB, faCode, faLinkedin, faGithub, faJs, faReact, faHtml5, faCss3Alt, faMoon, faSun, faLink, faPhp, faBootstrap, faFigma, faGitAlt, faEnvelope, faBars, faX)
 function App() {
 
 
@@ -32,7 +32,7 @@ function App() {
   //handle darkmode component
   const ThemeToggle = () => {
     return (
-      <label className="flex flex-col gap-2 items-center">
+      <label className=" flex 2xl:flex-col gap-2 items-center">
       <span className="text-xl font-medium text-white dark:text-teal-400">
         <span className="hidden dark:inline">
           <FontAwesomeIcon icon="fa-moon" />
@@ -57,10 +57,10 @@ function App() {
 
   //main app
   return (
-    <div id='main-content' className='dark'>
+    <div id='main-content' className='dark max-2xl:flex max-2xl:flex-col'>
       <Header toggleDarkMode={toggleDarkMode} ThemeToggle={ThemeToggle}/>
+      <main className=' bg-zinc-100 dark:bg-zinc-900 h-full transition-colors 2xl:pl-64 p-4 md:p-8 xl:px-14 grid gap-20 grid-cols-1'>
 
-      <main className=' bg-zinc-100 dark:bg-zinc-900 h-full transition-colors md:pl-72 pr-20 grid gap-20 grid-cols-1'>
       <Fade>
         <Home/>
         <About/>

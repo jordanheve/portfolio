@@ -12,6 +12,7 @@ const resources = {
       Skills: "Skills",
       Education: "Education",
       Contact: "Contact",
+      Menu: "Navigation",
       //Home section
       Hi: "Hi I'm",
       Developer: "Frontend Developer",
@@ -48,6 +49,7 @@ const resources = {
       Skills: "Habilidades",
       Education: "Educación",
       Contact: "Contacto",
+      Menu: "Navegación",
       //Seccion principal
       Hi: "Hola, soy",
       Developer: "Desarrollador Frontend",
