@@ -8,7 +8,7 @@ import { Fade } from "react-awesome-reveal";
 import Home from './components/home/Home'
 import About from './components/about/About'
 import Projects from './components/projects/Projects'
-import Skills from './components/skills/skills'
+import Skills from './components/skills/Skills'
 import Contact from './components/contact/Contact'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 import Footer from './footer/Footer'
