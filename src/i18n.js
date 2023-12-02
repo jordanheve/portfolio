@@ -19,6 +19,7 @@ const resources = {
       "Home description":
         "I enjoy seeing how my creations materialize and become tangible experiences. My passion lies in designing aesthetic and functional interfaces that provide a comfortable experience for users.",
       "Alt programming": "Picture from someone programming on a laptop",
+      "Contact me": "Contact me",
       // About me section
       "About info 1":
         "Hi I'm Jordan Herrera, an enthusiastic student pursuing a degree in Software Design Engineering, with a previous background as a graduate psychologist.",
@@ -52,6 +53,7 @@ const resources = {
       Contact: "Contacto",
       Menu: "Navegación",
       //Seccion principal
+      "Contact me": "Contactame",
       Hi: "Hola, soy",
       Developer: "Desarrollador Frontend",
       "Home description":

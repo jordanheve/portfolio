@@ -7,7 +7,7 @@ import LanguageOptions from './LanguageOptions';
 export default function PopoverNav() {
     const {t} = useTranslation()
   return (
-    <Popover className='2xl:hidden '>
+    <Popover className='2xl:hidden z-50'>
         <Popover.Button aria-label={t('Menu')} className="w-20 flex">
         <FontAwesomeIcon className='h-8' icon="fa-solid fa-bars" />
         </Popover.Button>
@@ -21,7 +21,7 @@ export default function PopoverNav() {
         leaveFrom="opacity-100 translate-y-0"
         leaveTo="opacity-0 translate-y-1"
         >
-        <Popover.Panel className='absolute grid items-center w-48 h-screen top-0 left-0 bg-zinc-100 dark:bg-zinc-700'>
+        <Popover.Panel className='absolute grid items-center w-52 h-screen top-0 left-0 bg-zinc-100 dark:bg-zinc-700'>
             
         <div className='absolute left-7 top-4'>
         <Popover.Button>

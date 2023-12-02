@@ -7,7 +7,7 @@ export default function Header({ ThemeToggle }) {
   const { t } = useTranslation();
 
   return (
-    <header className="overflow-hidden z-50">
+    <header className="overflow-hidden z-10">
       <div className="">
         <div className="w-full max-2xl:py-2 max-2xl:px-6 justify-between  2xl:py-8 transition-colors fixed dark:text-white text-slate-700 font-semibold bg-teal-500 dark:bg-zinc-700 flex 2xl:flex-col items-center gap-4 text-center 2xl-4 2xl:min-h-screen 2xl:w-52">
         <PopoverNav/>

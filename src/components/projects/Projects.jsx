@@ -5,7 +5,7 @@ export default function Projects() {
   const { t } = useTranslation();
   return (
     <section id="projects" className="max-w-screen-2xl text-center  mx-auto " >
-      <h3 className="dark:text-teal-500 text-6xl  mb-10 font-semibold text-slate-600">
+      <h3 className="dark:text-teal-500 text-4xl md:text-6xl  mb-10 font-semibold text-slate-600">
         {t("Projects")}
       </h3>
       {/**Projects maping */}

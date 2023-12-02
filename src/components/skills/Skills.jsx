@@ -7,7 +7,7 @@ export default function Skills() {
   return (
 
     <section id="skills" className="max-w-screen-2xl flex flex-col justify-center items-center py-10">
-      <h3 className="dark:text-teal-500 text-6xl  mb-10 font-semibold text-slate-600">
+      <h3 className="dark:text-teal-500 text-4xl md:text-6xl  mb-10 font-semibold text-slate-600">
         {t("Skills")}
       </h3>
       <div className="flex flex-col gap-20">

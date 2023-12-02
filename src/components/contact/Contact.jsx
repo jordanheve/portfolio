@@ -4,17 +4,17 @@ export default function Contact() {
     const {t} = useTranslation();
   return (
     <section id="contact" className="flex items-center flex-col">
-    <h3 className="text-center dark:text-teal-500 text-6xl  mb-10 font-semibold text-slate-600">
+    <h3 className="text-center dark:text-teal-500 text-4xl  md:text-6xl  mb-10 font-semibold text-slate-600">
         {t("Lets Work")}
       </h3>
       <p className="mb-10 text-slate-600 dark:text-zinc-200 max-w-lg text-center">{t("Contact Paragraph")}</p>
 
         {/**Github and linkedin icons */}
-        <div className="flex gap-4 text-3xl text-teal-600 dark:text-teal-500 mb-7">
-        <a href="#" className="hover:text-teal-700 dark:hover:text-teal-400">
+        <div className="flex gap-6 xl:gap-4 text-3xl text-teal-600 dark:text-teal-500 mb-7">
+        <a href="https://www.linkedin.com/in/jordanherreravera/" target="_blank" rel="noreferrer" className="hover:text-teal-700 dark:hover:text-teal-400">
           <FontAwesomeIcon icon={["fab", "linkedin"]} />
         </a>
-        <a href="#" className="hover:text-teal-700 dark:hover:text-teal-400">
+        <a href="https://github.com/jordanheve" target="_blank" rel="noreferrer" className="hover:text-teal-700 dark:hover:text-teal-400">
           <FontAwesomeIcon icon={["fab", "github"]} />
         </a>
       </div>
