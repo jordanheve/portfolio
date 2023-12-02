@@ -25,6 +25,7 @@ const resources = {
       "About info 2":
         " Over a year ago, I discovered my passion for web development, and ever since, I've immersed myself in the world of Frontend development. My focus revolves around merging aesthetics and usability in my projects.",
       Resume: "Resume",
+      pdf: "/portfolio/docs/resume-jordan-herrera.pdf",
       // Projects section
       "Tech": "Technologies",
       "Go to web": "Go to website",
@@ -62,6 +63,7 @@ const resources = {
       "About info 2":
         " Hace más de un año, descubrí mi pasión por el desarrollo web y desde entonces me he sumergido en el mundo del desarrollo Frontend. Mi enfoque se centra en fusionar la estética y la usabilidad en mis proyectos.",
       Resume: "Currículum",
+      pdf: "/portfolio/docs/curriculum-jordan-herrera.pdf",
       //Seccion de proyectos
       "Tech": "Tecnologías",
       "Go to web": "Ir a sitio web",

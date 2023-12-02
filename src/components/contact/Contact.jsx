@@ -4,10 +4,10 @@ export default function Contact() {
     const {t} = useTranslation();
   return (
     <section id="contact" className="flex items-center flex-col">
-    <h3 className="text-center dark:text-teal-400 text-6xl  mb-10 font-semibold text-slate-600">
+    <h3 className="text-center dark:text-teal-500 text-6xl  mb-10 font-semibold text-slate-600">
         {t("Lets Work")}
       </h3>
-      <p className="mb-10 dark:text-zinc-200 max-w-lg text-center">{t("Contact Paragraph")}</p>
+      <p className="mb-10 text-slate-600 dark:text-zinc-200 max-w-lg text-center">{t("Contact Paragraph")}</p>
 
         {/**Github and linkedin icons */}
         <div className="flex gap-4 text-3xl text-teal-600 dark:text-teal-500 mb-7">
@@ -19,7 +19,7 @@ export default function Contact() {
         </a>
       </div>
       <div className="text-zinc-500 dark:text-zinc-200 flex items-center gap-2 mb-4">
-        <FontAwesomeIcon icon="fa-regular fa-envelope" className="dark:text-teal-400 text-xl"/> 
+        <FontAwesomeIcon icon="fa-regular fa-envelope" className="dark:text-teal-500 text-xl"/> 
         <span className="mb-1">
           jordan.herreravera@gmail.com
         </span>

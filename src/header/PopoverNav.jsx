@@ -8,7 +8,7 @@ export default function PopoverNav() {
     const {t} = useTranslation()
   return (
     <Popover className='2xl:hidden '>
-        <Popover.Button aria-label={t('Menu')}>
+        <Popover.Button aria-label={t('Menu')} className="w-20 flex">
         <FontAwesomeIcon className='h-8' icon="fa-solid fa-bars" />
         </Popover.Button>
         <Popover.Overlay className="fixed inset-0 bg-black opacity-30" />

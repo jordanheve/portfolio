@@ -33,7 +33,7 @@ function App() {
   const ThemeToggle = () => {
     return (
       <label className=" flex 2xl:flex-col gap-2 items-center">
-      <span className="text-xl font-medium text-white dark:text-teal-400">
+      <span className="text-xl font-medium text-white dark:text-teal-500">
         <span className="hidden dark:inline">
           <FontAwesomeIcon icon="fa-moon" />
         </span>
@@ -59,7 +59,7 @@ function App() {
   return (
     <div id='main-content' className='dark max-2xl:flex max-2xl:flex-col'>
       <Header toggleDarkMode={toggleDarkMode} ThemeToggle={ThemeToggle}/>
-      <main className=' bg-zinc-100 dark:bg-zinc-900 h-full transition-colors 2xl:pl-64 p-4 md:p-8 xl:px-14 grid gap-20 grid-cols-1'>
+      <main className=' bg-zinc-100 dark:bg-zinc-900 h-full transition-colors 2xl:pl-64 p-4 pb-0 md:pb-0 xl:pb-0 md:p-8 xl:px-14 grid gap-20 grid-cols-1'>
 
       <Fade>
         <Home/>

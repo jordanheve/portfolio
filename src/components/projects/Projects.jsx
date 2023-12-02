@@ -5,7 +5,7 @@ export default function Projects() {
   const { t } = useTranslation();
   return (
     <section id="projects" className="max-w-screen-2xl text-center  mx-auto " >
-      <h3 className="dark:text-teal-400 text-6xl  mb-10 font-semibold text-slate-600">
+      <h3 className="dark:text-teal-500 text-6xl  mb-10 font-semibold text-slate-600">
         {t("Projects")}
       </h3>
       {/**Projects maping */}
@@ -30,7 +30,7 @@ export default function Projects() {
               </a>
             </div>
             <div className="py-4 px-4 flex flex-col  justify-between min-h-[192px]">
-              <h6 className=" dark:text-teal-400 text-teal-600 font-semibold text-xl">
+              <h6 className=" dark:text-teal-500 text-teal-600 font-semibold text-xl">
                 <a target="_blank" rel="noreferrer" href={item.url}>{item.title}</a>
               </h6>
               <p className="text-justify text-sm mb-2 dark:text-zinc-200 text-slate-600">
@@ -54,7 +54,7 @@ export default function Projects() {
                     <FontAwesomeIcon title="React" icon="fa-brands fa-react" />
                   </div>
                 </div>
-                  <a title="Github" aria-labelledby="Github repo website" href={item.repo} className="text-2xl text-teal-600 hover:text-teal-700 dark:text-teal-400 dark:hover:text-teal-200">
+                  <a title="Github" aria-label="Github repo website" target="_blank" rel="noreferrer" href={item.repo} className="text-2xl text-teal-600 hover:text-teal-700 dark:text-teal-500 dark:hover:text-teal-400">
                   <FontAwesomeIcon icon="fa-brands fa-github"/>
                   </a>
               </div>
@@ -67,7 +67,7 @@ export default function Projects() {
           <h6 className="dark:text-zinc-200">
           {t("More Projects")}
           <br/>
-          <span className="dark:text-teal-400 text-teal-600 font-semibold">
+          <span className="dark:text-teal-500 text-teal-600 font-semibold">
           Frontend Mentor
           </span>
           </h6>
