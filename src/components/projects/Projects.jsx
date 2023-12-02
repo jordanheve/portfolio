@@ -64,7 +64,7 @@ export default function Projects() {
         {/**More projects */}
         <div className=" p-2  max-w-sm w-full h-full border-2 border-zinc-400 dark:border-zinc-600">
           <a className=" hover:opacity-75 gap-10 text-xl flex flex-col justify-center items-center h-full" href="https://www.frontendmentor.io/profile/jordanheve">
-          <h6 className="dark:text-zinc-200">
+          <h6 className=" text-zinc-600 dark:text-zinc-200">
           {t("More Projects")}
           <br/>
           <span className="dark:text-teal-500 text-teal-600 font-semibold">
