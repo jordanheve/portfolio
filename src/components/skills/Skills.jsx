@@ -30,7 +30,7 @@ export default function Skills() {
                 <span className={spanClass}>React</span>
             </div>
             <div className={skillClass}>
-                <img alt="tailwind logo" src="portfolio/tailwind-logo.svg" className="h-10" />
+                <img alt="tailwind logo" src="tailwind-logo.svg" className="h-10" />
                 <span className={spanClass}>Tailwind</span>
             </div>
             <div className={skillClass}>

@@ -72,7 +72,7 @@ export default function Projects() {
           </span>
           </h6>
           <div >
-            <img className="h-20" src='portfolio/frontend-mentor-logo.svg'  alt="frontend mentor logo"/>
+            <img className="h-20" src='frontend-mentor-logo.svg'  alt="frontend mentor logo"/>
           </div>
           </a>
         </div>
