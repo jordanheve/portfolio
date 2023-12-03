@@ -49,7 +49,7 @@ function App() {
           className="sr-only peer"
           onChange={toggleDarkMode}
         />
-        <div className="w-11 h-6 bg-teal-700 rounded-full peer   dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-teal-500"></div>
+        <div className="w-11 h-6 bg-teal-700 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-teal-500"></div>
       </div>
     </label>
     )
@@ -59,7 +59,7 @@ function App() {
   return (
     <div id='main-content' className='dark max-2xl:flex max-2xl:flex-col'>
       <Header toggleDarkMode={toggleDarkMode} ThemeToggle={ThemeToggle}/>
-      <main className=' bg-zinc-100 dark:bg-zinc-900 h-full transition-colors 2xl:pl-64 p-4 pb-0 md:pb-0 xl:pb-0 md:p-8 xl:px-14 grid gap-20 grid-cols-1'>
+      <main className=' bg-zinc-100 dark:bg-zinc-900 transition-colors 2xl:pl-64 p-4 pb-0 md:pb-0 xl:pb-0 md:p-8 xl:px-14 grid gap-20 grid-cols-1'>
 
       <Fade>
         <Home/>
