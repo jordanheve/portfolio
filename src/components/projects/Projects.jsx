@@ -42,16 +42,11 @@ export default function Projects() {
                     {t("Tech")}:
                   </span>
                   <div className="text-xl text-zinc-400 flex gap-2">
-                    <FontAwesomeIcon title="HTML 5" icon="fa-brands fa-html5" />
-                    <FontAwesomeIcon
-                      title="CSS3"
-                      icon="fa-brands fa-css3-alt"
-                    />
-                    <FontAwesomeIcon
-                      title="Javascript"
-                      icon="fa-brands fa-js"
-                    />
-                    <FontAwesomeIcon title="React" icon="fa-brands fa-react" />
+
+                  {item.icons.map((iconClass, index) => (
+                  <FontAwesomeIcon key={index} icon={['fab', iconClass.split('fa-brands fa-')[1]]} /> 
+                  ))}
+
                   </div>
                 </div>
                   <a title="Github" aria-label="Github repo website" target="_blank" rel="noreferrer" href={item.repo} className="text-2xl text-teal-600 hover:text-teal-700 dark:text-teal-500 dark:hover:text-teal-400">

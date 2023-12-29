@@ -36,6 +36,7 @@ const resources = {
       "Age Calculator": "An app that calculates age in years, months, and days with dynamic updates. Validates input information to ensure accurate birthdates, emphasizing an intuitive and functional experience to precisely determine user's age.",
       "Advice Generator": " An app for quotes that utilizes the Advice Slip API to manage the received advice data. It updates each piece of advice upon clicking a button, which is animated to rotate when pressed.",
       "More Projects": "Explore more projects on ",
+      "Photoverse": "Photoverse is a full-stack social network that harnesses the power of Laravel, Tailwind CSS, and Livewire to create a robust and visually appealing platform. Supported by an SQL database.",
       // contact section
       "Lets Work": "Lets work together",
       "Contact Paragraph": "As a frontend developer, I'm excited to collaborate on innovative projects. Do you have a project in mind or any questions? I'd be happy to help! Let's make your idea shine together in the digital world.",
@@ -75,6 +76,7 @@ const resources = {
       "Age Calculator": " Aplicación que calcula la edad en años, meses y días con actualización dinámica. Valida la información de entrada para asegurar fechas de nacimiento correctas, resaltando una experiencia intuitiva y funcional para precisar la edad del usuario de manera exacta.",
       "Advice Generator": "Una aplicación de consejos que utiliza la API de Advice Slip para administrar los datos de consejos recibidos. Actualiza cada consejo al hacer clic en un botón, el cual está animado para girar al presionarlo.",
       "More Projects": "Descubrir más proyectos en ",
+      "Photoverse": "Photoverse es una red social full stack que integra la potencia de Laravel, Tailwind CSS y Livewire para forjar una plataforma sólida y estéticamente atractiva. Respaldada por una base de datos SQL.",
       //Seccion de contacto
       "Lets Work": "¡Trabajemos juntos!",
       "Contact Paragraph": "Como desarrollador frontend, estoy emocionado por colaborar en proyectos innovadores. ¿Tienes un proyecto en mente o preguntas? ¡Estaré encantado de ayudar! Hagamos brillar tu idea juntos en el mundo digital.",

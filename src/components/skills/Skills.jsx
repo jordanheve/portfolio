@@ -42,8 +42,8 @@ export default function Skills() {
                 <span className={spanClass}>PHP</span>
             </div>
             <div className={skillClass}>
-                <FontAwesomeIcon className="text-5xl text-teal-500" icon="fa-brands fa-figma"/>
-                <span className={spanClass}>Figma</span>
+                <FontAwesomeIcon className="text-5xl text-red-600" icon="fa-brands fa-laravel"/>
+                <span className={spanClass}>Laravel</span>
             </div>
         </div>
         

@@ -1,6 +1,6 @@
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faB, faMoon, faSun, faCode, faLink, faBars, faX } from '@fortawesome/free-solid-svg-icons'
-import { faLinkedin, faGithub, faJs, faReact, faHtml5, faCss3Alt, faPhp, faBootstrap, faFigma, faGitAlt } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faGithub, faJs, faReact, faHtml5, faCss3Alt, faPhp, faBootstrap, faFigma, faGitAlt, faLaravel } from '@fortawesome/free-brands-svg-icons'
 import Header from './header/Header'
 import { useEffect} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -12,7 +12,7 @@ import Skills from './components/skills/Skills'
 import Contact from './components/contact/Contact'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 import Footer from './footer/Footer'
-library.add(faB, faCode, faLinkedin, faGithub, faJs, faReact, faHtml5, faCss3Alt, faMoon, faSun, faLink, faPhp, faBootstrap, faFigma, faGitAlt, faEnvelope, faBars, faX)
+library.add(faB, faCode, faLinkedin, faGithub, faJs, faReact, faHtml5, faCss3Alt, faMoon, faSun, faLink, faPhp, faBootstrap, faFigma, faGitAlt, faEnvelope, faBars, faX, faLaravel)
 function App() {
 
 
