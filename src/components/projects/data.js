@@ -1,7 +1,7 @@
 export const projectsData = [
     {
         title: "Photoverse", 
-        url: "https://photoverse-jordanheve-dev.domcloud.dev/home", 
+        url: "https://photoverse-jordanheve-dev.domcloud.dev/jordanheve", 
         repo:"https://github.com/jordanheve/photoverse-social-network-app", 
         img: "photoverse.png", 
         icons: ["fa-brands fa-php", "fa-brands fa-css3-alt", "fa-brands fa-js", "fa-brands fa-laravel"],
