@@ -40,7 +40,7 @@ export default function Home() {
   <div className="z-20 filter: absolute inset-0 bg-gradient-to-r from-zinc-100  dark:from-zinc-900  to-transparent to-50%  ">
   </div>
   <div className="absolute z-10 h-full w-full   backdrop-grayscale-[70%] dark:backdrop-grayscale-[50%]"></div>
-  <img src="programing-img.jpg" className="darK:brightness-100 brightness-150 w-full h-full  object-cover" alt={t("Alt programming")} />
+  <img src="/portfolio/programing-img.jpg" className="darK:brightness-100 brightness-150 w-full h-full  object-cover" alt={t("Alt programming")} />
 </div>
     </section>
   );

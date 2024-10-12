@@ -9,7 +9,7 @@ export default function About() {
 
     <div className="mb-10 md:mb-16 flex max-xl:flex-col gap-10 md:gap-24 items-center">
     <div className=" shadow overflow-hidden dark:grayscale-[20%] grayscale-[30%] bg-white rounded-full border-4 border-teal-500">
-      <img src="profile.png" className="h-40 md:h-60 brightness-95 dark:brightness-90" alt="Jordan Herrera"/>
+      <img src="/portfolio/profile.png" className="h-40 md:h-60 brightness-95 dark:brightness-90" alt="Jordan Herrera"/>
     </div>
         <div className="max-w-lg text-justify text-slate-600 dark:text-slate-200">
 

@@ -23,7 +23,7 @@ export default function Projects() {
                 </span>
                 <img
                     
-                  src={item.img}
+                  src={'/portfolio/'+item.img}
                   alt=""
                   className=" transform transition duration-300 ease-in-out group-hover:brightness-75 group-hover:scale-125"
                 />
@@ -67,7 +67,7 @@ export default function Projects() {
           </span>
           </h6>
           <div >
-            <img className="h-20" src='frontend-mentor-logo.svg'  alt="frontend mentor logo"/>
+            <img className="h-20" src='/portfolio/frontend-mentor-logo.svg'  alt="frontend mentor logo"/>
           </div>
           </a>
         </div>
