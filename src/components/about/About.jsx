@@ -11,7 +11,7 @@ export default function About() {
     <div className=" shadow overflow-hidden dark:grayscale-[20%] grayscale-[30%] bg-white rounded-full border-4 border-teal-500">
       <img src="/portfolio/profile.png" className="h-40 md:h-60 brightness-95 dark:brightness-90" alt="Jordan Herrera"/>
     </div>
-        <div className="max-w-lg text-justify text-slate-600 dark:text-slate-200">
+        <div className="max-w-lg text-slate-600 dark:text-slate-200">
 
         <p className="mb-4">
           {t('About info 1')}

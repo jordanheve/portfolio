@@ -12,7 +12,9 @@ import Skills from './components/skills/Skills'
 import Contact from './components/contact/Contact'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 import Footer from './footer/Footer'
-library.add(faB, faCode, faLinkedin, faGithub, faJs, faReact, faHtml5, faCss3Alt, faMoon, faSun, faLink, faPhp, faBootstrap, faFigma, faGitAlt, faEnvelope, faBars, faX, faLaravel)
+import { typescriptIcon } from './custom-icons'
+
+library.add(faB, faCode, faLinkedin, faGithub, faJs, faReact, faHtml5, faCss3Alt, faMoon, faSun, faLink, faPhp, faBootstrap, faFigma, faGitAlt, faEnvelope, faBars, faX, faLaravel, typescriptIcon)
 function App() {
 
 

@@ -8,12 +8,20 @@ export const projectsData = [
         id: 1
     },
     {
+        title: "Audiophile E-commerce", 
+        url: "https://jordanheve-audiophile.netlify.app/", 
+        repo:"https://github.com/jordanheve/audiophile-e-commerce-website", 
+        img: "e-commerce.png", 
+        icons: ["fa-brands fa-html5", "fa-brands fa-css3-alt", 'fab fa-ts', "fa-brands fa-react"],
+        id: 2
+    },
+    {
         title: "Arch Studio", 
         url: "https://jordanheve.github.io/Arch-Studio/", 
         repo:"https://github.com/jordanheve/Arch-Studio", 
         img: "arch-studio.png", 
         icons: ["fa-brands fa-html5", "fa-brands fa-css3-alt", "fa-brands fa-js", "fa-brands fa-react"],
-        id: 2
+        id: 3
     },
     {
         title: "Space Tourism", 
@@ -21,16 +29,9 @@ export const projectsData = [
         repo:"https://github.com/jordanheve/space-tourism-website", 
         img: "space-tourism.png", 
         icons: ["fa-brands fa-html5", "fa-brands fa-css3-alt", "fa-brands fa-js", "fa-brands fa-react"],
-        id: 3
-    },
-    {
-        title: "Ecommerce Product", 
-        url: "https://jordanheve.github.io/ecommerce-product-component/", 
-        repo:"https://github.com/jordanheve/ecommerce-product-component", 
-        img: "ecommerce-product.png", 
-        icons: ["fa-brands fa-html5", "fa-brands fa-css3-alt", "fa-brands fa-js", "fa-brands fa-react"],
         id: 4
     },
+
     {
         title: "Age Calculator", 
         url: "https://jordanheve.github.io/age-calculator-app/", 

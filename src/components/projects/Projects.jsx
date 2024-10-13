@@ -1,10 +1,11 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTranslation } from "react-i18next";
 import { projectsData } from "./data.js";
+
 export default function Projects() {
   const { t } = useTranslation();
   return (
-    <section id="projects" className="max-w-screen-2xl text-center  mx-auto " >
+    <section id="projects" className="max-w-screen-2xl text-center  mx-auto ">
       <h3 className="dark:text-teal-500 text-4xl md:text-6xl  mb-10 font-semibold text-slate-600">
         {t("Projects")}
       </h3>
@@ -22,8 +23,7 @@ export default function Projects() {
                   <FontAwesomeIcon className="ml-2" icon="fa-solid fa-link" />
                 </span>
                 <img
-                    
-                  src={'/portfolio/'+item.img}
+                  src={"/portfolio/" + item.img}
                   alt=""
                   className=" transform transition duration-300 ease-in-out group-hover:brightness-75 group-hover:scale-125"
                 />
@@ -31,9 +31,11 @@ export default function Projects() {
             </div>
             <div className="py-4 px-4 flex flex-col  justify-between min-h-[192px]">
               <h6 className=" dark:text-teal-500 text-teal-600 font-semibold text-xl">
-                <a target="_blank" rel="noreferrer" href={item.url}>{item.title}</a>
+                <a target="_blank" rel="noreferrer" href={item.url}>
+                  {item.title}
+                </a>
               </h6>
-              <p className="text-justify text-sm mb-2 dark:text-zinc-200 text-slate-600">
+              <p className="text-left text-sm mb-2 dark:text-zinc-200 text-slate-600">
                 {t(item.title)}
               </p>
               <div className="flex justify-between">
@@ -42,33 +44,45 @@ export default function Projects() {
                     {t("Tech")}:
                   </span>
                   <div className="text-xl text-zinc-400 flex gap-2">
-
-                  {item.icons.map((iconClass, index) => (
-                  <FontAwesomeIcon key={index} icon={['fab', iconClass.split('fa-brands fa-')[1]]} /> 
-                  ))}
-
+                    {item.icons.map((iconClass, index) => (
+                      <FontAwesomeIcon key={index} icon={iconClass} />
+                    ))}
                   </div>
                 </div>
-                  <a title="Github" aria-label="Github repo website" target="_blank" rel="noreferrer" href={item.repo} className="text-2xl text-teal-600 hover:text-teal-700 dark:text-teal-500 dark:hover:text-teal-400">
-                  <FontAwesomeIcon icon="fa-brands fa-github"/>
-                  </a>
+                <a
+                  title="Github"
+                  aria-label="Github repo website"
+                  target="_blank"
+                  rel="noreferrer"
+                  href={item.repo}
+                  className="text-2xl text-teal-600 hover:text-teal-700 dark:text-teal-500 dark:hover:text-teal-400"
+                >
+                  <FontAwesomeIcon icon="fa-brands fa-github" />
+                </a>
               </div>
             </div>
           </div>
         ))}
         {/**More projects */}
         <div className=" p-2  max-w-sm w-full h-full border-2 border-zinc-400 dark:border-zinc-600">
-          <a className=" hover:opacity-75 gap-10 text-xl flex flex-col justify-center items-center h-full" href="https://www.frontendmentor.io/profile/jordanheve">
-          <h6 className=" text-zinc-600 dark:text-zinc-200">
-          {t("More Projects")}
-          <br/>
-          <span className="dark:text-teal-500 text-teal-600 font-semibold">
-          Frontend Mentor
-          </span>
-          </h6>
-          <div >
-            <img className="h-20" src='/portfolio/frontend-mentor-logo.svg'  alt="frontend mentor logo"/>
-          </div>
+          <a
+            className=" hover:opacity-75 gap-10 text-xl flex flex-col justify-center items-center h-full"
+            href="https://www.frontendmentor.io/profile/jordanheve"
+          >
+            <h6 className=" text-zinc-600 dark:text-zinc-200">
+              {t("More Projects")}
+              <br />
+              <span className="dark:text-teal-500 text-teal-600 font-semibold">
+                Frontend Mentor
+              </span>
+            </h6>
+            <div>
+              <img
+                className="h-20"
+                src="/portfolio/frontend-mentor-logo.svg"
+                alt="frontend mentor logo"
+              />
+            </div>
           </a>
         </div>
       </div>
